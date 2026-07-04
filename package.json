@@ -1,0 +1,20 @@
+{
+  "name": "auto-send-faucetpay",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local Puppeteer automation for scanning FaucetPay balances and auto-sending eligible coins.",
+  "main": "fp.js",
+  "scripts": {
+    "start": "node fp.js",
+    "open": "node fp.js open",
+    "scan": "node fp.js scan",
+    "transfer": "node fp.js transfer",
+    "test": "node --check fp.js"
+  },
+  "keywords": ["faucetpay", "puppeteer", "automation", "crypto"],
+  "author": "Lucifirst",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^25.3.0"
+  }
+}

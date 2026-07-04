@@ -1,0 +1,29 @@
+{
+  "note": "Isi minimum transfer resmi per coin. null = pakai deteksi tombol FaucetPay saat runtime.",
+  "minimums": {
+    "BTC": 0.000001,
+    "ETH": 0.000001,
+    "DOGE": 0.000001,
+    "LTC": 0.000001,
+    "TRX": 0.000001,
+    "USDT": 0.000001,
+    "BCH": 0.000001,
+    "DASH": 0.000001,
+    "DGB": 0.000001,
+    "FEY": 0.000001,
+    "BNB": 0.000001,
+    "SOL": 0.000001,
+    "XRP": 0.000001,
+    "ADA": 0.000001,
+    "MATIC": 0.000001,
+    "TON": 0.000001,
+    "XLM": 0.000001,
+    "ZEC": 0.000001,
+    "ETC": 0.000001,
+    "USDC": 0.000001,
+    "TARA": 0.000001,
+    "TRUMP": 0.000001,
+    "PEPE": 0.000001,
+    "FLT": 0.000001
+  }
+}
