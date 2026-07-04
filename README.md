@@ -178,11 +178,7 @@ Do not upload these folders/files:
 
 `profiles/` can contain active login cookies. Treat it like a password.
 
- Recommended Repository Description
 
-```text
-Local Puppeteer automation for scanning FaucetPay balances and auto-sending eligible coins from multiple Chrome profiles.
-```
 
 ## License
 
