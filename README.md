@@ -178,74 +178,7 @@ Do not upload these folders/files:
 
 `profiles/` can contain active login cookies. Treat it like a password.
 
-## GitHub Upload Tutorial
-
-### 1. Create Repository On GitHub
-
-1. Open <https://github.com/new>.
-2. Repository name: `Auto-Send-Faucetpay`.
-3. Choose `Public` or `Private`.
-4. Do not initialize with README because this project already has one.
-5. Click `Create repository`.
-
-### 2. Check Local Files
-
-Run:
-
-```bash
-git status
-```
-
-Make sure private files are ignored:
-
-```bash
-git status --ignored
-```
-
-You should not commit `profiles/` or `node_modules/`.
-
-### 3. Initialize Git If Needed
-
-If this folder is not a git repository yet:
-
-```bash
-git init
-```
-
-### 4. Add Files
-
-```bash
-git add fp.js package.json package-lock.json README.md .gitignore minimums.json coins.json
-```
-
-### 5. Commit
-
-```bash
-git commit -m "Initial Auto Send Faucetpay release"
-```
-
-### 6. Connect Remote Repository
-
-Replace `YOUR_USERNAME` with your GitHub username:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/Auto-Send-Faucetpay.git
-```
-
-If remote already exists:
-
-```bash
-git remote set-url origin https://github.com/YOUR_USERNAME/Auto-Send-Faucetpay.git
-```
-
-### 7. Push To GitHub
-
-```bash
-git branch -M main
-git push -u origin main
-```
-
-## Recommended Repository Description
+ Recommended Repository Description
 
 ```text
 Local Puppeteer automation for scanning FaucetPay balances and auto-sending eligible coins from multiple Chrome profiles.
